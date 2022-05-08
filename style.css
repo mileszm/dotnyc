@@ -56,10 +56,10 @@ h1 {
 	text-transform: uppercase;
 }
 a {
-	color: CornflowerBlue;
+	color: DeepSkyBlue;
 }
 a:hover {
-	color: DeepSkyBlue;
+	color: CornflowerBlue;
 }
 p {
 	font-family: 'Roboto', sans-serif;
