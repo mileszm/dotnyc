@@ -1,4 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Source+Sans+Pro:wght@400&display=swap');
+/* webfonts */ 
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url('../Roboto-Bold.woff2');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-weight: 700;
+  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url('../RobotoCondensed-Bold.woff2');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 300;
+	font-style: normal;
+  src: local('Roboto Light'), local('Roboto-Light'), url('../Roboto-Light.woff2');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 300;
+	font-style: italic;
+  src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url('../Roboto-LightItalic.woff2');
+}
+
+/* wild reset */ 
 * {
 	border: 0;
 	padding: 0;
@@ -8,12 +32,15 @@
 	font-family: inherit;
 	font-size: inherit;
 }
+
+/* basic styles */ 
 html {
 	background-color: hsl(0, 0%, 13%);
 	color: White;
 	font-size: 16px;
 	line-height: 1.4;
-	font-family: sans-serif;
+	letter-spacing: 0.25px;
+	font-family: 'Roboto Light', sans-serif;
 }
 body {
 	width: 90vw;
@@ -22,24 +49,26 @@ body {
 	padding: 5vh 0;
 }
 h1 {
-	font-family: Nunito, sans-serif;
-	font-weight: 800;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
 	font-size: 2rem;
-	color: DarkSeaGreen;
-	text-transform: lowercase;
+	color: CornflowerBlue;
+	text-transform: uppercase;
 }
 a {
-	color: DarkSeaGreen;
+	color: CornflowerBlue;
 }
 a:hover {
-	color: LightGreen;
+	color: DeepSkyBlue;
 }
 p {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	margin-bottom: 1rem;
 }
+
+/* icon glyphs */ 
 .feather {
 	height: 15px;
-    margin-bottom: -3px;
+  margin-bottom: -3px;
 }
